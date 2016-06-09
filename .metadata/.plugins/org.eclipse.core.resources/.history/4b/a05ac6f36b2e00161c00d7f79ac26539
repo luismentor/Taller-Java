@@ -1,0 +1,18 @@
+package com.luis.utilitario.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.luis.utilitario.util.StringUtil;
+
+
+public class StringUtilTest {
+
+	@Test
+	public void capitalizeTest() {
+		assertEquals(StringUtil.capitalize("java"), "java");
+		assertNull(StringUtil.capitalize(null));
+//		assertEquals(StringUtil.capitalize(""), "");
+	}
+}
