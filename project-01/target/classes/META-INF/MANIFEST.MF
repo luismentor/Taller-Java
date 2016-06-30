@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Built-By: USER
-Class-Path: lib/utilitario-1.1.jar
-Empresa: Unac
-Buil-By: Luis Mendoza
-Build-Jdk: 1.8.0_51
-Created-By: Maven Integration for Eclipse
-Main-Class: com.luis.project.main.Main
-
