@@ -19,11 +19,9 @@ public class StringUtilTest {
 		System.out.println("--> beforeClass()");
 	}
 	@AfterClass
-	
 	public static void afterClass(){
 		System.out.println("--> afterClass()");
 	}
-	
 	@Before
 	public void before(){
 		//System.out.println("-->before each test");
