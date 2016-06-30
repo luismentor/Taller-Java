@@ -47,6 +47,17 @@ public class StringUtil {
 		return primerCaracter + demasCaracteres;
 
 	}
+	
+	public static String fullTrim(String cadena){
+		if(cadena == null){
+		return cadena;
+		}
+		String cadenaFinal="";
+		for(int i=0 ; i<cadena.length(); i++){
+			char caracterActual=cadena.charAt(i);
+		}
+		return cadenaFinal;
+	}
 
 	/**
 	 * @since 1.1
@@ -83,10 +94,10 @@ public class StringUtil {
 	}
 
 	public static void main(String[] args) {
-		// System.out.println(StringUtil.swapCase("java"));
-		// System.out.println(StringUtil.swapCase("JAVA"));
-		// System.out.println(StringUtil.swapCase("jAvA"));
-		// System.out.println(StringUtil.swapCase(null));
+		 System.out.println(StringUtil.swapCase("java"));
+		 System.out.println(StringUtil.swapCase("JAVA"));
+		 System.out.println(StringUtil.swapCase("jAvA"));
+		 System.out.println(StringUtil.swapCase(null));
 
 		// System.out.println(times("hola ", 2));
 		// System.out.println(times("* - ", 3));
@@ -95,7 +106,7 @@ public class StringUtil {
 		// System.out.println(reverse("java"));
 		// System.out.println(reverse("*"));
 
-		System.out.println(capitalizeAllWords("hola muNdo"));
+		//System.out.println(capitalizeAllWords("hola muNdo"));
 
 	}
 
