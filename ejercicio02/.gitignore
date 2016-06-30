@@ -1,0 +1,5 @@
+/$project.build.directory/
+/.settings/
+/target/
+/.classpath
+/.project
